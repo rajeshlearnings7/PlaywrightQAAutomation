@@ -1,7 +1,7 @@
 import {test, expect} from "@playwright/test";
 
 /*
-
+Purpose: This is the method helps in logging
 */
 test("Launch the browser", async ({page})=>{
     await page.goto("https://sgtestinginstituteapp.onrender.com/");
