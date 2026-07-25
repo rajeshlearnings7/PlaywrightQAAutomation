@@ -1,6 +1,7 @@
 import {test, expect} from "@playwright/test";
 
 /*
+Developer : @Rajesh Matadh
 Purpose: This is the method helps in logging
 */
 test("Launch the browser", async ({page})=>{
