@@ -19,4 +19,5 @@ test("Launch the browser", async ({page})=>{
     await page.getByRole('button', { name: 'Sign In' }).click();
     await page.waitForTimeout(5000);
     console.info("First test successful on login page");
+    
 })
